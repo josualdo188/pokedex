@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/imagens/icon.png">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <script defer src="/js/script.js"></script>
+    <!-- erro no JS por não adicionar o "defer" 
+         ou colocar o fechamento no final da body  -->
+
+    <title>Pokedex</title>
+</head>
+<body>
+    <main>
+        <img src="/imagens/pokedex.png" alt="pokemon" class="pokedex">
+        <img src="#" alt="pokedex" class="pokemon-image">
+        
+        <h1 class="data-pokemon">
+            <span class="pokemon_number"></span> -
+            <span class="pokemon_name"></span> 
+            
+            
+        </h1>
+
+        <form class="form">
+            <input type="search"
+            class="input-search"
+            placeholder="Número ou Nome"
+            required
+            />
+        </form>
+        <div class="buttons">
+            <button class="button btn-voltar">Voltar</button>
+            <button class="button btn-proximo">Próximo</button>
+
+        </div>
+
+    </main>
+    
+</body>
+</html>
