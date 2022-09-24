@@ -9,15 +9,9 @@ const btnProximo = document.querySelector('.btn-proximo');
 
 let searchPokemon = 1;
 
-
-
 // erro por não alterar nome especifico depois da "const"
-
-
-
 const fetchPokemon = async (pokemon) => {
 
- 
   const  APIResponse = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon}`);
   
   if (APIResponse.status ==200) {
@@ -27,12 +21,10 @@ const fetchPokemon = async (pokemon) => {
 }
 
 const renderPokemon = async (pokemon) => {
-
   pokemonName.innerHTML ='Carregando...';
   pokemonNumber.innerHTML = '';
   
   const data = await fetchPokemon(pokemon);
-// porque esta zebradono na linha 39?
 
   if (data) {
    pokemonImage.style.display = 'block';
