@@ -22,6 +22,7 @@
 
 ## V2.0
 
+- [ ] Adicianar título acima da pokédex
 - [ ] Criar layout da Pokedex usando apenas HTML e CSS
 - [ ] Remover caixa de Pesquisa 
 - [ ] Adicianar botões direcionais 
