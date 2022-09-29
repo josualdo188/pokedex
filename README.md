@@ -3,7 +3,7 @@
 ## Demo
 [http://pokedex-josualdo.vercel.app](http://pokedex-josualdo.vercel.app)
 
-![pokedex-screenshot](https://github.com/josualdo188/pokedex/blob/49e923a814c4a46dcb1be56c846bf0834464e837/imagens/pokedex.png)
+![pokedex-screenshot](https://github.com/josualdo188/pokedex/blob/master/imagens/Screenshot_2.png)
 
 ## V1.0
 
