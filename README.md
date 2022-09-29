@@ -17,6 +17,7 @@
 
 - [x] Carregar Pokémons a partir da API (PokéAPI)
 - [ ] Adicinar fonte pixel
+- [x] No Mobile a tela se adapta ao tamanho
 
 
 ## V2.0
