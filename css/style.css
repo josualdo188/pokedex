@@ -1,6 +1,7 @@
 @font-face {
     font-family: pixel;
     src: url('/fonts/Minecraft.ttf') format('truetype');
+/* como altera a fonte */
 }
 
 *{
@@ -8,9 +9,9 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Cabin', sans-serif;
 }
 body{
+    font-family: pixel;
     text-align: center;
     background: linear-gradient(to bottom, #71ddf3, #fff);
     min-height: 100vh;
@@ -45,9 +46,7 @@ main {
     top: 61%;
     right: 38%;
     font-size: clamp(5px, 5vw, 23px);
-
-   
-   
+    font-weight: lighter
 }
 .pokemon_name{
     text-transform: capitalize;
@@ -82,6 +81,7 @@ main {
   transform: translate(-50%, 0);
   display: flex;
   gap: 25px;
+  font-weight: lighter;
 }
 
 .button{
@@ -101,5 +101,4 @@ main {
 .button:active{
     box-shadow: inset -4px 0 #222  ;
     font-size: 0.9rem;
-
 }
